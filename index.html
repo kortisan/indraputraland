@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Testing Web</title>
+    <title>Indraputra Land</title>
 </head>
 <body>
     <!-- navigation menu -->
     <nav>
         <div class="container mx-auto flex items-center justify-between py-6">
             <a href="" class="w-32"><img src="img/ipl-logo.png" alt=""></a>
-            <div class="space-x-10 font-semibold">
+            <div class="hidden md:inline space-x-10 font-semibold">
                 <a class="hover:text-green-600" href="">Home</a>
                 <a class="hover:text-green-600" href="#about-us">About Us</a>
                 <a class="hover:text-green-600" href="">Project</a>
@@ -19,12 +19,12 @@
         </div>
     </nav>
     <!-- hero section -->
-<section class="bg-no-repeat bg-cover bg-blend-multiply h-[80vh] items-center" style="background-image: url('/img/hero-bg.jpg');">
-    <div class="w-full h-[80vh] items-start py-44 bg-black" style="background-color: rgb(0,0,0,0.65);">
-        <div class="px-6 py-10 container mx-auto">
-            <div class="container w-3/6">
+<section class="bg-no-repeat bg-cover bg-blend-multiply lg:h-[100vh] sm:h-[80vh] items-center" style="background-image: url('img/hero-bg.jpg');">
+    <div class="w-full h-[100vh] items-start py-44 bg-black" style="background-color: rgb(0,0,0,0.65);">
+        <div class="px-6 md:py-10 container mx-auto">
+            <div class="container md:w-3/6">
                 <h4 class="text-white text-xl font-bold">Living Home at Yogyakarta</h4>
-                <h3 class="text-green-500 text-6xl font-bold mb-10">Lucutious And Comfortable Residence in Yogyakarta</h3>
+                <h3 class="text-green-500 text-4xl font-bold mb-5">Lucutious And Comfortable Residence in Yogyakarta</h3>
                 <p class="text-gray-300 mb-5">Nikmati hunian nyaman dan modern di Yogyakarta bersama Indraputa Land. Dengan lokasi strategis dan desain berkelas, jadikan rumah impian Anda menjadi kenyataan.</p>
                 <button class="bg-green-600 text-white px-5 py-3 rounded-3xl">Hubungi Kami</button>
             </div>
@@ -33,11 +33,11 @@
 </section>
     <!-- about us section -->
 <section id="about-us" class="bg-green-950 mt-10">
-    <div class="container flex mx-auto items-center justify-between space-x-10">
-        <picture class="w-1/3 my-5 block overflow-hidden">
+    <div class="container mx-auto sm:py-10 sm:grid sm:grid-cols-1 md:flex md:items-center md:justify-between md:space-x-10">
+        <picture class="md:w-1/3 my-5 block overflow-hidden">
             <img class="hover:scale-125 ease-in duration-150" src="img/about-us.jpg" alt="">
         </picture>
-        <div class="w-4/5">
+        <div class="sm:text-justify md:w-4/5">
             <h4 class="text-white text-3xl font-bold">About Us</h4>
             <h3 class="text-white text-5xl font-bold mb-5">Indraputa Land "Trusted Developer"</h3>
             <p class="text-gray-200">Indraputa Land adalah pengembang properti terpercaya yang berbasis di Yogyakarta, berkomitmen untuk menghadirkan hunian berkualitas dengan desain modern dan fungsional. Dengan pengalaman bertahun-tahun di industri properti, kami menyediakan solusi terbaik untuk kebutuhan tempat tinggal dan investasi properti Anda. Kepercayaan pelanggan adalah prioritas kami, yang diwujudkan melalui transparansi, pelayanan prima, dan hasil akhir yang memuaskan. Pilihan tepat untuk masa depan Anda!</p>
@@ -49,38 +49,38 @@
     <div class="container mx-auto py-6 justify-items-center">
         <h3 class="text-5xl font-bold">OUR PROJECTS</h3>
     </div>
-    <div class="container flex mx-auto items-center justify-between py-6 space-x-6">
-        <div class="w-1/3 justify-items-center text-center block overflow-hidden">
+    <div class="container mx-auto sm:grid sm:grid-cols-1 justify-items-center md:flex md:justify-between py-6 md:space-x-6">
+        <div class="md:w-1/3 mb-6 justify-items-center text-center block overflow-hidden">
             <img class="rounded-xl w-96" src="img/tamantirto.jpg" alt="">
             <h4 class="text-3xl font-semibold mt-3">Tamantirto Hills</h4>
-            <p class="text-gray-500 w-4/5 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, autem!</p>
+            <p class="text-gray-500 w-4/5 mt-1">Hunian modern dengan desain elegan di lingkungan yang asri dan strategis, cocok untuk keluarga Anda.</p>
         </div>
-        <div class="w-1/3 justify-items-center text-center block overflow-hidden">
+        <div class="md:w-1/3 mb-6 justify-items-center text-center block overflow-hidden">
             <img class="rounded-xl w-96" src="img/nawasena.jpg" alt="">
             <h4 class="text-3xl font-semibold mt-3">Nawasena Townhouse</h4>
-            <p class="text-gray-500 w-4/5 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, enim.</p>
+            <p class="text-gray-500 w-4/5 mt-1">Townhouse premium dengan konsep minimalis modern, memberikan kenyamanan dan gaya hidup eksklusif.</p>
         </div>
-        <div class="w-1/3 justify-items-center text-center block overflow-hidden">
+        <div class="md:w-1/3 justify-items-center text-center block overflow-hidden">
             <img class="rounded-xl w-96" src="img/aswana.jpg" alt="">
             <h4 class="text-3xl font-semibold mt-3">Aswana Residence</h4>
-            <p class="text-gray-500 w-4/5 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.</p>
+            <p class="text-gray-500 w-4/5 mt-1">Proyek perumahan terbaru yang menawarkan desain inovatif dengan nuansa hijau dan ramah lingkungan.</p>
         </div>
     </div>
 </section>
 
 <section class="bg-green-950">
-    <div class="px-6 container py-6 mx-auto flex justify-between">
-        <div>
+    <div class="px-6 container py-6 mx-auto sm:grid sm:grid-cols-2 lg:flex lg:justify-between">
+        <div class="mb-4">
             <img src="img/ipl-logo.png" class="w-64" alt="">
         </div>
-        <div class="space-y-3">
+        <div class="space-y-3 mb-4">
             <h4 class="text-white text-xl font-semibold">MENU</h4>
             <p class="text-gray-300"><a href="">About Us</a></p>
             <p class="text-gray-300"><a href="">Project</a></p>
             <p class="text-gray-300"><a href="">Promo</a></p>
             <p class="text-gray-300"><a href="">Contact Us</a></p>
         </div>
-        <div class="space-y-3">
+        <div class="space-y-3 mb-4">
             <h4 class="text-white text-xl font-semibold">CONTACTS</h4>
             <p class="text-gray-300">Jalan Jambon, Sinduadi, Sleman, DIY</p>
             <div class="flex items-end justify-start space-x-2 text-gray-300">
